@@ -1,0 +1,18 @@
+Reference, Value, Footprint, Datasheet, MANUFACTURER, PARTREV, STANDARD
+J1,Conn_01x11,Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Horizontal,~,,,
+J4,SJ1-3525N,SJ1-3525N:CUI_SJ1-3525N,,CUI,1.02,Manufacturer recommendation
+J5,USB_B_Micro,Connector_USB:USB_Micro-B_Molex_47346-0001,~,,,
+R1,56k,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,,
+R2,56k,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,,
+R3,560,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,,
+R4,560,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,,
+C2,0.047u,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,~,,,
+C3,0.047u,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,~,,,
+C4,0.047u,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,~,,,
+C1,0.047u,Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,~,,,
+J2,Conn_01x11,Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical,~,,,
+J3,Conn_01x05,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~,,,
+R5,56k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~,,,
+R6,56k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~,,,
+R7,560,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~,,,
+R8,560,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~,,,

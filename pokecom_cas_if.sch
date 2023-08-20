@@ -101,7 +101,7 @@ U 1 1 62C4FAFB
 P 5000 4000
 F 0 "C2" V 4748 4000 50  0000 C CNN
 F 1 "0.047u" V 4839 4000 50  0000 C CNN
-F 2 ":C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5038 3850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5038 3850 50  0001 C CNN
 F 3 "~" H 5000 4000 50  0001 C CNN
 	1    5000 4000
 	0    1    1    0   
@@ -112,7 +112,7 @@ U 1 1 62C502EF
 P 5000 4450
 F 0 "C3" V 4748 4450 50  0000 C CNN
 F 1 "0.047u" V 4839 4450 50  0000 C CNN
-F 2 ":C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5038 4300 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5038 4300 50  0001 C CNN
 F 3 "~" H 5000 4450 50  0001 C CNN
 	1    5000 4450
 	0    1    1    0   
@@ -123,7 +123,7 @@ U 1 1 62C5088A
 P 5300 3650
 F 0 "C4" H 5185 3604 50  0000 R CNN
 F 1 "0.047u" H 5185 3695 50  0000 R CNN
-F 2 ":C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5338 3500 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5338 3500 50  0001 C CNN
 F 3 "~" H 5300 3650 50  0001 C CNN
 	1    5300 3650
 	-1   0    0    1   
@@ -134,7 +134,7 @@ U 1 1 62C510D9
 P 4550 3650
 F 0 "C1" H 4665 3696 50  0000 L CNN
 F 1 "0.047u" H 4665 3605 50  0000 L CNN
-F 2 ":C_Rect_L7.0mm_W3.5mm_P5.00mm" H 4588 3500 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 4588 3500 50  0001 C CNN
 F 3 "~" H 4550 3650 50  0001 C CNN
 	1    4550 3650
 	1    0    0    -1  
@@ -142,7 +142,7 @@ $EndComp
 Wire Wire Line
 	2750 3100 3600 3100
 Wire Wire Line
-	3600 3100 3600 4000
+	3600 3100 3600 3650
 Wire Wire Line
 	5150 4000 5300 4000
 Wire Wire Line
@@ -150,7 +150,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 4300 6550 4300
 Wire Wire Line
-	5150 4450 5750 4450
+	5150 4450 5550 4450
 Wire Wire Line
 	4850 4450 4550 4450
 Wire Wire Line
@@ -167,7 +167,7 @@ Wire Wire Line
 	5300 3800 5300 4000
 Connection ~ 5300 4000
 Wire Wire Line
-	5300 4000 6100 4000
+	5300 4000 5950 4000
 Wire Wire Line
 	5300 3500 5300 2600
 Wire Wire Line
@@ -181,11 +181,9 @@ Wire Wire Line
 	5750 3500 5750 2700
 Connection ~ 5750 2700
 Wire Wire Line
-	5750 2700 4550 2700
+	5750 2700 5550 2700
 Wire Wire Line
 	6100 3500 6100 2700
-Wire Wire Line
-	5750 2700 6100 2700
 Connection ~ 6100 2700
 Wire Wire Line
 	6100 3800 6100 4000
@@ -284,7 +282,7 @@ Connection ~ 6500 3300
 Wire Wire Line
 	6500 3300 7350 3300
 Wire Wire Line
-	3500 4450 3500 3200
+	3500 4450 3500 4150
 Connection ~ 3500 3200
 NoConn ~ 6550 4100
 NoConn ~ 6550 4200
@@ -325,4 +323,90 @@ Text Label 2800 3500 0    50   ~ 0
 IB6
 Text Label 2800 3600 0    50   ~ 0
 IB5
+$Comp
+L Device:R R5
+U 1 1 64841BF2
+P 4200 3650
+F 0 "R5" V 3993 3650 50  0000 C CNN
+F 1 "56k" V 4084 3650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4130 3650 50  0001 C CNN
+F 3 "~" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 64843BDC
+P 4200 4150
+F 0 "R6" V 3993 4150 50  0000 C CNN
+F 1 "56k" V 4084 4150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4130 4150 50  0001 C CNN
+F 3 "~" H 4200 4150 50  0001 C CNN
+	1    4200 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 648441E6
+P 5550 4200
+F 0 "R7" H 5620 4246 50  0000 L CNN
+F 1 "560" H 5620 4155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5480 4200 50  0001 C CNN
+F 3 "~" H 5550 4200 50  0001 C CNN
+	1    5550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 6484513E
+P 5950 3050
+F 0 "R8" H 6020 3096 50  0000 L CNN
+F 1 "560" H 6020 3005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5880 3050 50  0001 C CNN
+F 3 "~" H 5950 3050 50  0001 C CNN
+	1    5950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2700 5950 2700
+Connection ~ 5950 2700
+Wire Wire Line
+	5950 2700 6100 2700
+Wire Wire Line
+	5950 2900 5950 2700
+Wire Wire Line
+	5950 3200 5950 4000
+Connection ~ 5950 4000
+Wire Wire Line
+	5950 4000 6100 4000
+Wire Wire Line
+	5550 4050 5550 2700
+Connection ~ 5550 2700
+Wire Wire Line
+	5550 2700 4550 2700
+Wire Wire Line
+	5550 4350 5550 4450
+Connection ~ 5550 4450
+Wire Wire Line
+	5550 4450 5750 4450
+Wire Wire Line
+	4050 3650 3600 3650
+Connection ~ 3600 3650
+Wire Wire Line
+	3600 3650 3600 4000
+Wire Wire Line
+	4350 3650 4450 3650
+Wire Wire Line
+	4450 3650 4450 4000
+Connection ~ 4450 4000
+Wire Wire Line
+	4050 4150 3500 4150
+Connection ~ 3500 4150
+Wire Wire Line
+	3500 4150 3500 3200
+Wire Wire Line
+	4350 4150 4450 4150
+Wire Wire Line
+	4450 4150 4450 4450
+Connection ~ 4450 4450
 $EndSCHEMATC
